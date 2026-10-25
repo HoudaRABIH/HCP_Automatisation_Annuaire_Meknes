@@ -1,0 +1,24 @@
+# Dépendances Python - Application Annuaire Statistique de Meknès
+#
+# Installation :
+#   python -m pip install -r requirements.txt
+#
+# Remarque :
+# Tkinter n'est pas installé via pip. Il est fourni avec l'installation
+# officielle de Python sous Windows lorsque le composant Tcl/Tk est activé.
+
+# 1.Traitement Excel
+openpyxl
+pandas
+
+# 2.Traitement Word / XML
+python-docx
+lxml
+
+# 3.Bibliothèques de l'environnement de traitement / packaging
+numpy
+matplotlib
+Jinja2
+
+# 4.Création de l'exécutable Windows
+pyinstaller
